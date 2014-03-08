@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085A582518CB14FE00F526AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A582418CB14FE00F526AD /* Foundation.framework */; };
+		085A582A18CB14FE00F526AD /* WebVTT_Parser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 085A582918CB14FE00F526AD /* WebVTT_Parser.h */; };
+		085A582C18CB14FE00F526AD /* WebVTT_Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A582B18CB14FE00F526AD /* WebVTT_Parser.m */; };
+		085A583318CB14FE00F526AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A583218CB14FE00F526AD /* XCTest.framework */; };
+		085A583418CB14FE00F526AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A582418CB14FE00F526AD /* Foundation.framework */; };
+		085A583618CB14FE00F526AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A583518CB14FE00F526AD /* UIKit.framework */; };
+		085A583918CB14FE00F526AD /* libWebVTT-Parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A582118CB14FE00F526AD /* libWebVTT-Parser.a */; };
+		085A583F18CB14FE00F526AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 085A583D18CB14FE00F526AD /* InfoPlist.strings */; };
+		085A584118CB14FE00F526AD /* WebVTT_ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A584018CB14FE00F526AD /* WebVTT_ParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		085A583718CB14FE00F526AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085A581918CB14FE00F526AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085A582018CB14FE00F526AD;
+			remoteInfo = "WebVTT-Parser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		085A581F18CB14FE00F526AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				085A582A18CB14FE00F526AD /* WebVTT_Parser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		085A582118CB14FE00F526AD /* libWebVTT-Parser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWebVTT-Parser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		085A582418CB14FE00F526AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		085A582818CB14FE00F526AD /* WebVTT-Parser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebVTT-Parser-Prefix.pch"; sourceTree = "<group>"; };
+		085A582918CB14FE00F526AD /* WebVTT_Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebVTT_Parser.h; sourceTree = "<group>"; };
+		085A582B18CB14FE00F526AD /* WebVTT_Parser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVTT_Parser.m; sourceTree = "<group>"; };
+		085A583118CB14FE00F526AD /* WebVTT-ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebVTT-ParserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		085A583218CB14FE00F526AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		085A583518CB14FE00F526AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		085A583C18CB14FE00F526AD /* WebVTT-ParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebVTT-ParserTests-Info.plist"; sourceTree = "<group>"; };
+		085A583E18CB14FE00F526AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		085A584018CB14FE00F526AD /* WebVTT_ParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVTT_ParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085A581E18CB14FE00F526AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A582518CB14FE00F526AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085A582E18CB14FE00F526AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A583318CB14FE00F526AD /* XCTest.framework in Frameworks */,
+				085A583618CB14FE00F526AD /* UIKit.framework in Frameworks */,
+				085A583918CB14FE00F526AD /* libWebVTT-Parser.a in Frameworks */,
+				085A583418CB14FE00F526AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085A581818CB14FE00F526AD = {
+			isa = PBXGroup;
+			children = (
+				085A582618CB14FE00F526AD /* WebVTT-Parser */,
+				085A583A18CB14FE00F526AD /* WebVTT-ParserTests */,
+				085A582318CB14FE00F526AD /* Frameworks */,
+				085A582218CB14FE00F526AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		085A582218CB14FE00F526AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085A582118CB14FE00F526AD /* libWebVTT-Parser.a */,
+				085A583118CB14FE00F526AD /* WebVTT-ParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085A582318CB14FE00F526AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085A582418CB14FE00F526AD /* Foundation.framework */,
+				085A583218CB14FE00F526AD /* XCTest.framework */,
+				085A583518CB14FE00F526AD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		085A582618CB14FE00F526AD /* WebVTT-Parser */ = {
+			isa = PBXGroup;
+			children = (
+				085A582918CB14FE00F526AD /* WebVTT_Parser.h */,
+				085A582B18CB14FE00F526AD /* WebVTT_Parser.m */,
+				085A582718CB14FE00F526AD /* Supporting Files */,
+			);
+			path = "WebVTT-Parser";
+			sourceTree = "<group>";
+		};
+		085A582718CB14FE00F526AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				085A582818CB14FE00F526AD /* WebVTT-Parser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		085A583A18CB14FE00F526AD /* WebVTT-ParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				085A584018CB14FE00F526AD /* WebVTT_ParserTests.m */,
+				085A583B18CB14FE00F526AD /* Supporting Files */,
+			);
+			path = "WebVTT-ParserTests";
+			sourceTree = "<group>";
+		};
+		085A583B18CB14FE00F526AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				085A583C18CB14FE00F526AD /* WebVTT-ParserTests-Info.plist */,
+				085A583D18CB14FE00F526AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085A582018CB14FE00F526AD /* WebVTT-Parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085A584418CB14FE00F526AD /* Build configuration list for PBXNativeTarget "WebVTT-Parser" */;
+			buildPhases = (
+				085A581D18CB14FE00F526AD /* Sources */,
+				085A581E18CB14FE00F526AD /* Frameworks */,
+				085A581F18CB14FE00F526AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebVTT-Parser";
+			productName = "WebVTT-Parser";
+			productReference = 085A582118CB14FE00F526AD /* libWebVTT-Parser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		085A583018CB14FE00F526AD /* WebVTT-ParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085A584718CB14FE00F526AD /* Build configuration list for PBXNativeTarget "WebVTT-ParserTests" */;
+			buildPhases = (
+				085A582D18CB14FE00F526AD /* Sources */,
+				085A582E18CB14FE00F526AD /* Frameworks */,
+				085A582F18CB14FE00F526AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085A583818CB14FE00F526AD /* PBXTargetDependency */,
+			);
+			name = "WebVTT-ParserTests";
+			productName = "WebVTT-ParserTests";
+			productReference = 085A583118CB14FE00F526AD /* WebVTT-ParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085A581918CB14FE00F526AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 085A581C18CB14FE00F526AD /* Build configuration list for PBXProject "WebVTT-Parser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 085A581818CB14FE00F526AD;
+			productRefGroup = 085A582218CB14FE00F526AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085A582018CB14FE00F526AD /* WebVTT-Parser */,
+				085A583018CB14FE00F526AD /* WebVTT-ParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085A582F18CB14FE00F526AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A583F18CB14FE00F526AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085A581D18CB14FE00F526AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A582C18CB14FE00F526AD /* WebVTT_Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085A582D18CB14FE00F526AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A584118CB14FE00F526AD /* WebVTT_ParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		085A583818CB14FE00F526AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085A582018CB14FE00F526AD /* WebVTT-Parser */;
+			targetProxy = 085A583718CB14FE00F526AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		085A583D18CB14FE00F526AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085A583E18CB14FE00F526AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		085A584218CB14FE00F526AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		085A584318CB14FE00F526AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085A584518CB14FE00F526AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WebVTT_Parser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVTT-Parser/WebVTT-Parser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		085A584618CB14FE00F526AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WebVTT_Parser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVTT-Parser/WebVTT-Parser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		085A584818CB14FE00F526AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVTT-Parser/WebVTT-Parser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WebVTT-ParserTests/WebVTT-ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		085A584918CB14FE00F526AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVTT-Parser/WebVTT-Parser-Prefix.pch";
+				INFOPLIST_FILE = "WebVTT-ParserTests/WebVTT-ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085A581C18CB14FE00F526AD /* Build configuration list for PBXProject "WebVTT-Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085A584218CB14FE00F526AD /* Debug */,
+				085A584318CB14FE00F526AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085A584418CB14FE00F526AD /* Build configuration list for PBXNativeTarget "WebVTT-Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085A584518CB14FE00F526AD /* Debug */,
+				085A584618CB14FE00F526AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085A584718CB14FE00F526AD /* Build configuration list for PBXNativeTarget "WebVTT-ParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085A584818CB14FE00F526AD /* Debug */,
+				085A584918CB14FE00F526AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085A581918CB14FE00F526AD /* Project object */;
+}

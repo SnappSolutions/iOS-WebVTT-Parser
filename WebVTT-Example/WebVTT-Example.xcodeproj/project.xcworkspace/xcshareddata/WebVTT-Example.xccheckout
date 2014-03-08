@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7EB9BF7-DCAD-4AE2-9302-0BB5E053FCAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebVTT-Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B5347899-9B7C-400A-AA3E-5343FD84A184</key>
+		<string>https://github.com/SnappSolutions/iOS-WebVTT-Parser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebVTT-Example/WebVTT-Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B5347899-9B7C-400A-AA3E-5343FD84A184</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SnappSolutions/iOS-WebVTT-Parser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B5347899-9B7C-400A-AA3E-5343FD84A184</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B5347899-9B7C-400A-AA3E-5343FD84A184</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-WebVTT-Parser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
