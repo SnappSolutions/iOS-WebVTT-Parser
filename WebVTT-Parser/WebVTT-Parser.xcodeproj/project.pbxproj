@@ -16,6 +16,8 @@
 		085A583918CB14FE00F526AD /* libWebVTT-Parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A582118CB14FE00F526AD /* libWebVTT-Parser.a */; };
 		085A583F18CB14FE00F526AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 085A583D18CB14FE00F526AD /* InfoPlist.strings */; };
 		085A584118CB14FE00F526AD /* WebVTT_ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A584018CB14FE00F526AD /* WebVTT_ParserTests.m */; };
+		085A589D18CB516600F526AD /* CaptionEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A589A18CB516600F526AD /* CaptionEntry.m */; };
+		085A589F18CB516600F526AD /* Captions.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A589C18CB516600F526AD /* Captions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		085A583C18CB14FE00F526AD /* WebVTT-ParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebVTT-ParserTests-Info.plist"; sourceTree = "<group>"; };
 		085A583E18CB14FE00F526AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		085A584018CB14FE00F526AD /* WebVTT_ParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVTT_ParserTests.m; sourceTree = "<group>"; };
+		085A589918CB516600F526AD /* CaptionEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionEntry.h; sourceTree = "<group>"; };
+		085A589A18CB516600F526AD /* CaptionEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionEntry.m; sourceTree = "<group>"; };
+		085A589B18CB516600F526AD /* Captions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Captions.h; sourceTree = "<group>"; };
+		085A589C18CB516600F526AD /* Captions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Captions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 		085A582618CB14FE00F526AD /* WebVTT-Parser */ = {
 			isa = PBXGroup;
 			children = (
+				085A589918CB516600F526AD /* CaptionEntry.h */,
+				085A589A18CB516600F526AD /* CaptionEntry.m */,
+				085A589B18CB516600F526AD /* Captions.h */,
+				085A589C18CB516600F526AD /* Captions.m */,
 				085A582918CB14FE00F526AD /* WebVTT_Parser.h */,
 				085A582B18CB14FE00F526AD /* WebVTT_Parser.m */,
 				085A582718CB14FE00F526AD /* Supporting Files */,
@@ -224,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				085A582C18CB14FE00F526AD /* WebVTT_Parser.m in Sources */,
+				085A589D18CB516600F526AD /* CaptionEntry.m in Sources */,
+				085A589F18CB516600F526AD /* Captions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

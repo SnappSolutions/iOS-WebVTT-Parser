@@ -22,29 +22,28 @@
  SOFTWARE.
  */
 
-#import <XCTest/XCTest.h>
+@class CaptionEntry;
 
-@interface WebVTT_ParserTests : XCTestCase
+/**
+ Defines interface for a list of closed captions.
+ */
+@interface CaptionList : NSObject
 
-@end
+/** Mutable Array holding CaptionEntry objects. */
+@property (nonatomic, retain) NSMutableArray *captions;
 
-@implementation WebVTT_ParserTests
+/** 
+ Parses WebVTT file with captions and adds its content to the caption list.
+ @param captionsFileURL Captions file URL.
+ */
+- (BOOL) parseCaptionsFile:(NSURL *)captionsFileURL;
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
+/**
+ Retrieves a CaptionEntry that is valid for the provided playback time.
+ @param currentPlaybackTime Current playback time.
+ @returns CaptionEntry instance with caption for currentPlaybackTime.
+ */
+- (CaptionEntry *) getCaptionForCurrentPlaybackTime:(NSTimeInterval)currentPlaybackTime;
 
 @end
+
