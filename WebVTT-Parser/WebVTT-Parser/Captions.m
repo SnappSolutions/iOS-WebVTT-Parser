@@ -75,6 +75,7 @@
      
         if (lineNubmber == 0)
         {
+            lineNubmber++;
             if([line rangeOfString:@"WEBVTT"].location == NSNotFound)
             {
                 return NO;

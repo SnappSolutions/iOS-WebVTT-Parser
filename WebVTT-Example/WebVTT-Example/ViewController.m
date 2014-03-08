@@ -23,6 +23,7 @@
  */
 
 #import "ViewController.h"
+#import "WebVTT_Parser.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"example_subtitles"
+                                                         ofType:@"vtt"];
+    
+    NSURL *fileURL = [NSURL fileURLWithPath:filePath];
+
+    CaptionList *captionList = [[CaptionList alloc] init];
+    
+    if ([captionList parseCaptionsFile:fileURL])
+    {
+        NSLog(@"Success.");
+    }
+    else
+    {
+        NSLog(@"File not parsed.");
+    }
 }
 
 - (void)didReceiveMemoryWarning
