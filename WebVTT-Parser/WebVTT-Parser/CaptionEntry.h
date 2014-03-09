@@ -22,29 +22,29 @@
  SOFTWARE.
  */
 
-#import <XCTest/XCTest.h>
+#import <Foundation/Foundation.h>
 
-@interface WebVTT_ParserTests : XCTestCase
+/**
+ Define interface for an entry in the caption list
+*/
+@interface CaptionEntry : NSObject
 
-@end
+/**
+ Caption entry presentation time relative to the player time.
+ This is the time where the caption should be displayed on the screen.
+ */
+@property NSTimeInterval startTime;
 
-@implementation WebVTT_ParserTests
+/** 
+ Caption endtime or expiration time, represents the time where the caption should be removed fro mthe display
+ */
+@property NSTimeInterval endTime;
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
+/** The caption string */
+@property (readonly, nonatomic) NSString *text;
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
+- (void) parseTime:(NSString *)timeString;
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
+- (void) appendText:(NSString *)text;
 
 @end
